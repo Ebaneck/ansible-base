@@ -1,0 +1,9 @@
+---
+- name: Requirements for ghost
+  hosts: ghost
+  roles:
+    - letsencrypt
+    - nodejs
+    - nginx
+    - mysql
+    - ghost
